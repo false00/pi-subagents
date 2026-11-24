@@ -18,6 +18,7 @@ function readText(result: { content: Array<{ type: string; text?: string }> }): 
 describe("agent management config parsing", () => {
 	beforeEach(() => {
 		tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "pi-subagents-management-"));
+		fs.mkdirSync(path.join(tempDir, ".pi"));
 	});
 
 	afterEach(() => {

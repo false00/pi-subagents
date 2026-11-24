@@ -10,6 +10,8 @@ https://github.com/user-attachments/assets/702554ec-faaf-4635-80aa-fb5d6e292fd1
 
 ## Installation
 
+Requires Pi 1.6+ within 1.x. Older Pi versions are no longer supported because their dependency trees include known security vulnerabilities.
+
 ```bash
 pi install npm:pi-subagents
 ```
