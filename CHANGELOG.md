@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Security
+- Require Pi 1.6+ within 1.x and update the matching agent, AI, core, and TUI dependencies.
+- Isolate agent-management test fixtures from parent project directories and avoid assuming Pi delays persisting a user-only session.
+
 ## [0.26.0] - 2026-05-29
 
 ### Added
